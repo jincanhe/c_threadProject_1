@@ -248,6 +248,15 @@ c_threadProject_1_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 c_threadProject_1_SOURCE_DIR:STATIC=E:/work/threadProject/c_threadProject_1
 
+//Value Computed by CMake
+listing_BINARY_DIR:STATIC=E:/work/threadProject/c_threadProject_1/cmake-build-debug
+
+//Value Computed by CMake
+listing_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+listing_SOURCE_DIR:STATIC=E:/work/threadProject/c_threadProject_1
+
 
 ########################
 # INTERNAL cache entries

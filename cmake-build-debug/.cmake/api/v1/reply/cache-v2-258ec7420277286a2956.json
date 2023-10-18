@@ -1300,6 +1300,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "E:/work/threadProject/c_threadProject_1"
+		},
+		{
+			"name" : "listing_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "E:/work/threadProject/c_threadProject_1/cmake-build-debug"
+		},
+		{
+			"name" : "listing_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "listing_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "E:/work/threadProject/c_threadProject_1"
 		}
 	],
 	"kind" : "cache",
