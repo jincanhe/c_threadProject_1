@@ -1,16 +1,10 @@
 # ninja log v5
-0	302	7193468293052385	CMakeFiles/c_threadProject_1.dir/main.cpp.obj	e69b0e6aa8021eaf
+1	1114	7194321140969638	CMakeFiles/c_threadProject_1.dir/main.cpp.obj	e69b0e6aa8021eaf
+1030	1388	7194323149470869	c_threadProject_1.exe	6850e6c06a8197f0
 0	267	7193470176801079	CMakeFiles/c_threadProject_1.dir/ccia_code_samples-master/listings/listing_2.5.cpp.obj	e31f7edd66df7285
-267	320	7193470177310371	c_threadProject_1.exe	e4a7ee6dac5b039
-0	57	7193487714641667	build.ninja	b07054e93368b49f
+0	1050	7194309084111356	CMakeFiles/c_threadProject_1.dir/ccia_code_samples-master/listings/listing_4.7.cpp.obj	710653b46b255668
+0	58	7194660957422862	build.ninja	b07054e93368b49f
 2	266	7193467897902863	CMakeFiles/c_threadProject_1.dir/listing_2.5.cpp.obj	70f0b9a842e737db
-267	319	7193469007937222	listing.exe	72b4178e006fb31
 2	267	7193469007436718	CMakeFiles/listing.dir/listing_2.5.cpp.obj	78e3e464937776c8
-2	348	7193491835700541	CMakeFiles/c_threadProject_1.dir/main.cpp.obj	e69b0e6aa8021eaf
-348	401	7193491836207026	c_threadProject_1.exe	2c8b1403aff29934
-1	414	7193510318404193	CMakeFiles/c_threadProject_1.dir/main.cpp.obj	e69b0e6aa8021eaf
-414	478	7193510319027151	c_threadProject_1.exe	2c8b1403aff29934
-1	412	7193515761315890	CMakeFiles/c_threadProject_1.dir/main.cpp.obj	e69b0e6aa8021eaf
-412	472	7193515761890485	c_threadProject_1.exe	2c8b1403aff29934
-2	402	7193519094941988	CMakeFiles/c_threadProject_1.dir/main.cpp.obj	e69b0e6aa8021eaf
-402	465	7193519095550672	c_threadProject_1.exe	2c8b1403aff29934
+267	319	7193469007937222	listing.exe	72b4178e006fb31
+1	1030	7194323145897679	CMakeFiles/c_threadProject_1.dir/asyncTest.cpp.obj	888fd85bef959a50

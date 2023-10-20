@@ -1,4 +1,4 @@
-"D:\A_Software\clion\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/A_Software/clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S E:\work\threadProject\c_threadProject_1 -B E:\work\threadProject\c_threadProject_1\cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: E:/work/threadProject/c_threadProject_1/cmake-build-debug
+"C:\CLino\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\myProjectCpp\c_proj -B D:\myProjectCpp\c_proj\cmake-build-debug
+-- Configuring done (1.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: D:/myProjectCpp/c_proj/cmake-build-debug

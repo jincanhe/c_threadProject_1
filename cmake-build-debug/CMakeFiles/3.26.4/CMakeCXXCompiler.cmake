@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "D:/A_Software/clion/CLion 2023.2.2/bin/mingw/bin/g++.exe")
+set(CMAKE_CXX_COMPILER "C:/CLino/CLion 2023.2.2/bin/mingw/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "13.1.0")
@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "D:/A_Software/clion/CLion 2023.2.2/bin/mingw/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "D:/A_Software/clion/CLion 2023.2.2/bin/mingw/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "D:/A_Software/clion/CLion 2023.2.2/bin/mingw/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "D:/A_Software/clion/CLion 2023.2.2/bin/mingw/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "D:/A_Software/clion/CLion 2023.2.2/bin/mingw/bin/ld.exe")
+set(CMAKE_AR "C:/CLino/CLion 2023.2.2/bin/mingw/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "C:/CLino/CLion 2023.2.2/bin/mingw/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "C:/CLino/CLion 2023.2.2/bin/mingw/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "C:/CLino/CLion 2023.2.2/bin/mingw/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/CLino/CLion 2023.2.2/bin/mingw/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/A_Software/clion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;D:/A_Software/clion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;D:/A_Software/clion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;D:/A_Software/clion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;D:/A_Software/clion/CLion 2023.2.2/bin/mingw/include;D:/A_Software/clion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;D:/A_Software/clion/CLion 2023.2.2/bin/mingw/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/CLino/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;C:/CLino/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;C:/CLino/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;C:/CLino/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/CLino/CLion 2023.2.2/bin/mingw/include;C:/CLino/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/CLino/CLion 2023.2.2/bin/mingw/x86_64-w64-mingw32/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
