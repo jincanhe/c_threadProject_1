@@ -5,30 +5,6 @@
 #include "memory"
 #include "future"
 
-class testClass
-{
-public:
-    testClass() { std::cout << "testClass()\n"; }
-    static testClass* getInstance()
-    {
-        static testClass instance;
-        std::cout << "incomplete\n";
-        return &instance;
-    }
-    void doSomething() { std::cout << "doSomething()\n"; }
-    int getNum() { return 10; }
-};
-
-struct some_resource {
-    void do_something() { std::cout << "do_something()\n"; }
-    int getnum() { return 101; }
-};
-
-void test_fun(){
-    std::cout << "testing()\n";};
-
-int get_num() { return 10; }
-
 //----一段很复杂耗时的计算，需要返回值 但是不急拿结果 Async
 struct testAsync
 {
@@ -63,11 +39,6 @@ public:
 };
 
 int main() {
-    some_resource sr;
-    std::future<int> f = std::async(&some_resource::getnum, std::ref(sr));
-    test_fun();
-    std::cout << u8"结果 = " << f.get() << std::endl;
-
     testAsync ta;
     //调用的是ta
     auto f1 = std::async(&testAsync::foo, &ta, 42, "hello");
@@ -88,8 +59,6 @@ int main() {
 
     //生成匿名变量->移动构造->operator()
     auto f7 = std::async(std::launch::async, testAsyncMove_only());
-
-
 
     return 0;
 }
