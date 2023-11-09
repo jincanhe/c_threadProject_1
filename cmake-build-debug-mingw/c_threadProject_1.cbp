@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c_threadProject_1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/myProjectCpp/clion_proj/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testProject">
+				<Option output="D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/testProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/myProjectCpp/clion_proj/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 testProject"/>
+					<CompileFile command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testProject/fast">
+				<Option output="D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/testProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/myProjectCpp/clion_proj/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/CLino/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 testProject/fast"/>
+					<CompileFile command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/myProjectCpp/clion_proj/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/myProjectCpp/clion_proj/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CLino/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/myProjectCpp/clion_proj/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/myProjectCpp/clion_proj/cookbook_main.cpp">
+			<Option target="testProject"/>
+		</Unit>
+		<Unit filename="D:/myProjectCpp/clion_proj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
